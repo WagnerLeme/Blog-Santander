@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Santander - Educação Financeira</title>
     <link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="icon" type="imagem/png" href="icone.png">
+    <link rel="icon" type="imagem/png" href="./img/favicon.png">
     <meta name="description" content="Bem-vindo ao espaço de novidades do Santander. Informação de qualidade pra você e sua empresa. Além de dicas valiosas de educação financeira. Confira!">
 </head>
 <body>
@@ -31,15 +31,16 @@
                 <aside>
                     <p>Acreditamos que o conhecimento financeiro é uma ferramenta poderosa para a liberdade e o bem-estar</p>
                 </aside>
-                <p>O "Dinheiro Descomplicado" é mais do que apenas um blog financeiro - é seu parceiro confiável na jornada rumo à saúde financeira e realização pessoal. Nosso objetivo é desmistificar o mundo das finanças, tornando conceitos complexos acessíveis a todos, independentemente de sua experiência prévia. Através de artigos informativos, dicas práticas e análises amplas, buscamos capacitar nossos leitores a tomar decisões financeiras inteligentes, seja administrando o orçamento familiar, iniciando sua jornada de investimentos ou planejando uma aposentadoria confortável. Acreditamos que o conhecimento financeiro é uma ferramenta poderosa para a liberdade e o bem-estar, e estamos comprometidos em fornecer conteúdo que não apenas eduque, mas também inspire você a construir uma relação saudável e próspera com seu dinheiro. No <strong>"Dinheiro Descomplicado"</strong>, transformamos jargões financeiros em linguagem clara, números assustadores em oportunidades empolgantes, e sonhos distantes em metas alcançáveis.
-                </p>
+                <span class="nowrap">
+                <p class="proposito-texto">O <strong>Dinheiro Descomplicado</strong> é mais do que apenas um blog financeiro - é seu parceiro confiável na jornada rumo à saúde financeira e realização pessoal. Nosso objetivo é desmistificar o mundo das finanças, tornando conceitos complexos acessíveis a todos, independentemente de sua experiência prévia. Através de artigos informativos, dicas práticas e análises amplas, buscamos capacitar nossos leitores a tomar decisões financeiras inteligentes, seja administrando o orçamento familiar, iniciando sua jornada de investimentos ou planejando uma aposentadoria confortável. Acreditamos que o conhecimento financeiro é uma ferramenta poderosa para a liberdade e o bem-estar, e estamos comprometidos em fornecer conteúdo que não apenas eduque, mas também inspire você a construir uma relação saudável e próspera com seu dinheiro. No <strong>Dinheiro Descomplicado</strong>, transformamos jargões financeiros em linguagem clara, números assustadores em oportunidades empolgantes, e sonhos distantes em metas alcançáveis.</p>
+                </span>
             </article>
 
             <div class="img-principal">
                 <picture>
-                    <source media="(min-width: 1280px)" srcset="./img/imagem1.jpg">
-                    <source media="(min-width: 768px)" srcset="./img/imagem2.jpg">
-                    <img src="./img/imagem3.jpg" alt="">
+                    <source media="(min-width: 1280px)" srcset="./img/imagem1.webp">
+                    <source media="(min-width: 768px)" srcset="./img/imagem2.webp">
+                    <img src="./img/imagem3.webp" alt="">
                 </picture>
             </div>
             
@@ -124,15 +125,12 @@
         <section id="newsletter">
         <h3>Newsletter</h3>
         <form>
-            <input type="text" placeholder="Nome" required>
-            <input type="email" placeholder="Email" required>
-            <input type="tel" placeholder="Telefone">
+            <input type="text" id="nome" name="nome" placeholder="Nome" required>
+            <input type="email" id="email" name="email" placeholder="Email" required autocomplete="email">
+            <input type="tel" id="telefone" name="telefone" placeholder="Telefone">
             <button type="submit">Enviar</button>
         </form>
         </section>
-        <div class="contato-instagram">
-            <a href="#"><img alt="instagram" src="./img/instagram.png" /></a>
-        </div>
     </footer>
 </body>
 </html>
